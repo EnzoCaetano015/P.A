@@ -1,8 +1,8 @@
 algoritmo "combustivel"
-// Função : calcular o gasto de combustivel gasto
+// FunÃ§Ã£o : calcular o gasto de combustivel gasto
 // Autor :  Enzo Caetano
 // Data : 09/03/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 
 distancia, combustivel, media real
@@ -20,8 +20,8 @@ leia(distancia)
 escreval("Digite o combustivel gasto")
 leia(combustivel)
 
-// Seção de Comandos
-meida <- distancia/combustivel
+// SeÃ§Ã£o de Comandos
+media <- distancia/combustivel
 
 
 //saida
