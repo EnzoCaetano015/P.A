@@ -1,17 +1,17 @@
 algoritmo "Peso"
-// Função :Peso em diferentes planetas
-// Autor : Carolina
-// Data : 01/06/2023
-// Seção de Declarações 
+// FunÃ§Ã£o : 
+// Autor : Enzo C
+// Data : 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 opcao: inteiro
-peso, mer, ve, mar, jup, sat, ura: real
+peso, merc, ven, mart, jup, sat, uran: real
 
 inicio
 //entrada
 escreval ("Digite seu peso no planeta Terra:")
 leia (peso)
-escreval ("Escolha o planeta. 1 para MERCÚRIO, 2 para VÊNUS, 3 para MARTE, 4 para JÚPTER, 5 para SATURNO e 6 para URANO:")
+escreval ("Escolha o planeta. 1 para MERCÃšRIO, 2 para VÃŠNUS, 3 para MARTE, 4 para JÃšPTER, 5 para SATURNO e 6 para URANO:")
 leia (opcao)
 
 //processamento
@@ -19,26 +19,26 @@ leia (opcao)
 escolha opcao
 
 caso 1
-     mer <- 0.37 * peso
-     escreval ("Seu peso no planeta Mercúrio é:", mer)
+     merc <- 0.37 * peso
+     escreval ("Seu peso no planeta MercÃºrio Ã©:", mer)
 caso 2
-     ve <- 0.88 * peso
-     escreval ("Seu peso no planeta Vênus é:", ve)
+     ven <- 0.88 * peso
+     escreval ("Seu peso no planeta VÃªnus Ã©:", ve)
 caso 3
-     mar <- 0.38 * peso
-     escreval ("Seu peso no planeta Marte é:", mar)
+     mart <- 0.38 * peso
+     escreval ("Seu peso no planeta Marte Ã©:", mar)
 caso 4
      jup <- 2.64 * peso
-     escreval ("Seu peso no planeta Júpter é:", jup)
+     escreval ("Seu peso no planeta JÃºpter Ã©:", jup)
 caso 5
      sat <- 1.15 * peso
-     escreval ("Seu peso no planeta Saturno é:", sat)
+     escreval ("Seu peso no planeta Saturno Ã©:", sat)
 caso 6
-     ura <- 1.17 * peso
-     escreval ("Seu peso no plantea Urano é:", ura)
+     uran <- 1.17 * peso
+     escreval ("Seu peso no plantea Urano Ã©:", ura)
 outrocaso
-        escreval ("OPÇÃO INVÁLIDA")
+        escreval ("OPÃ‡ÃƒO INVÃLIDA")
 fimescolha
 
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
