@@ -1,16 +1,16 @@
 algoritmo "signo"
-// Função : ver o signo
-// Autor : Carolina
-// Data : 01/06/2023
-// Seção de Declarações 
+// FunÃ§Ã£o : mostrar o signo
+// Autor : Enzo C
+// Data : 08/06/2023
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 opcao, dia: inteiro
 
 inicio
 // entrada
-escreval ("Em qual mês (1-12) você nasceu?")
+escreval ("Em qual mÃªs (1-12) vocÃª nasceu?")
 leia (opcao)
-escreval ("Em qual dia você nasceu?")
+escreval ("Em qual dia vocÃª nasceu?")
 leia (dia)
 
 //processamento
@@ -18,75 +18,75 @@ escolha opcao
 
 caso 1
      se (dia<=19)entao
-        escreval ("Você é capricórnio")
+        escreval ("VocÃª Ã© capricÃ³rnio")
      senao
-          escreval ("Você é aquário")
+          escreval ("VocÃª Ã© aquÃ¡rio")
      fimse
 caso 2
      se (dia<=18)entao
-        escreval ("Você é aquário")
+        escreval ("VocÃª Ã© aquÃ¡rio")
      senao
-          escreval ("Você é peixes")
+          escreval ("VocÃª Ã© peixes")
      fimse
 caso 3
      se (dia<=20)entao
-        escreval ("Você é peixes")
+        escreval ("VocÃª Ã© peixes")
      senao
-          escreval ("Você é áries")
+          escreval ("VocÃª Ã© Ã¡ries")
      fimse
 caso 4
      se (dia<=19)entao
-        escreval ("Você é áries")
+        escreval ("VocÃª Ã© Ã¡ries")
      senao
-          escreval ("Você é touro)
+          escreval ("VocÃª Ã© touro)
      fimse
 caso 5
      se (dia<=20)entao
-        escreval ("Você é touro")
+        escreval ("VocÃª Ã© touro")
      senao
-          escreval ("Você é gêmeos")
+          escreval ("VocÃª Ã© gÃªmeos")
      fimse
 caso 6
      se (dia<=21)entao
-        escreval ("Você é gêmeos")
+        escreval ("VocÃª Ã© gÃªmeos")
      senao
-          escreval ("Você é câncer")
+          escreval ("VocÃª Ã© cÃ¢ncer")
      fimse
 caso 7
      se (dia<=22)entao
-        escreval ("Você é câncer")
+        escreval ("VocÃª Ã© cÃ¢ncer")
      senao
-          escreval ("Você é leão")
+          escreval ("VocÃª Ã© leÃ£o")
      fimse
 caso 8
      se (dia<=22)entao
-        escreval ("Você é leão")
+        escreval ("VocÃª Ã© leÃ£o")
      senao
-          escreval ("Você é virgem")
+          escreval ("VocÃª Ã© virgem")
      fimse
 caso 9
      se (dia<=22)entao
-        escreval ("Você é virgem")
+        escreval ("VocÃª Ã© virgem")
      senao
-          escreval ("Você é libra")
+          escreval ("VocÃª Ã© libra")
      fimse
 caso 10
      se (dia<=22)entao
-        escreval ("Você é libra")
+        escreval ("VocÃª Ã© libra")
      senao
-          escreval ("Você é ecorpião")
+          escreval ("VocÃª Ã© ecorpiÃ£o")
      fimse
 caso 11
      se (dia<=21)entao
-        escreval ("Você é escorpião")
+        escreval ("VocÃª Ã© escorpiÃ£o")
      senao
-          escreval ("Você é sagitário")
+          escreval ("VocÃª Ã© sagitÃ¡rio")
      fimse
 caso 12
      se (dia<=21)entao
-        escreval ("Você é sagitário")
+        escreval ("VocÃª Ã© sagitÃ¡rio")
      senao
-          escreval ("Você é capricórnio")
+          escreval ("VocÃª Ã© capricÃ³rnio")
      fimse
 fimescolha
 
