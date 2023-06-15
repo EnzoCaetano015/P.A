@@ -1,44 +1,48 @@
-algoritmo "VotaÁ„o MISS ETEC MCM"
+algoritmo "Vota√ß√£o MISS ETEC MCM"
+// Fun√ß√£o :
+// Autor : Enzo C
+// Data : 15/06/2023
+// Se√ß√£o de Declara√ß√µes 
 
 var
-   voto, votoTotalFulana, votoTotalCiclana, votoTotalBeltrana: inteiro
-   votoMedioFulana, votoMedioCiclana, votoMedioBeltrana: real
+   voto, votoTotalCintia, votoTotalEdilma, votoTotalAnderson: inteiro
+   votoMedioCintia, votoMedioEdilma, votoMedioAnderson: real
    jurado: inteiro
 
 inicio
-   votoTotalFulana <- 0
-   votoTotalCiclana <- 0
-   votoTotalBeltrana <- 0
+   votoTotalCintia <- 0
+   votoTotalEdilma <- 0
+   votoTotalAnderson <- 0
 
-      escreval("Jurado ", jurado, ": Digite o voto para a candidata Fulana (10), Ciclana (20) ou Beltrana (30): ")
+      escreval("Jurado ", jurado, ": Digite o voto para a candidata Cintia (10), Edilma (20) ou Anderson (30): ")
       leia(voto)
       
    escolha voto
       caso 10
-            votoTotalFulana <- votoTotalFulana + voto
+            votoTotalCintia <- votoTotalCintia + voto
       caso 20
-            votoTotalCiclana <- votoTotalCiclana + voto
+            votoTotalEdilma <- votoTotalEdilma + voto
       caso 30
-            votoTotalBeltrana <- votoTotalBeltrana + voto
+            votoTotalAnderson <- votoTotalAnderson + voto
          outrocaso
-            escreva("Voto inv·lido!")
+            escreva("Voto inv√°lido!")
       fimescolha
 
 
-   votoMedioFulana <- votoTotalFulana / 4.0
-   votoMedioCiclana <- votoTotalCiclana / 4.0
-   votoMedioBeltrana <- votoTotalBeltrana / 4.0
+   votoMedioCintia <- votoTotalCintia / 4.0
+   votoMedioEdilma <- votoTotalEdilma / 4.0
+   votoMedioAnderson <- votoTotalAnderson / 4.0
 
-   escreva("Total de votos da Fulana: ", votoTotalFulana, " - Voto mÈdio: ", votoMedioFulana)
-   escreva("Total de votos da Ciclana: ", votoTotalCiclana, " - Voto mÈdio: ", votoMedioCiclana)
-   escreva("Total de votos da Beltrana: ", votoTotalBeltrana, " - Voto mÈdio: ", votoMedioBeltrana)
+   escreva("Total de votos da Cintia: ", votoTotalCintia, " - Voto m√©dio: ", votoMedioCintia)
+   escreva("Total de votos da Edilma: ", votoTotalEdilma, " - Voto m√©dio: ", votoMedioEdilma)
+   escreva("Total de votos do Anderson: ", votoTotalAnderson, " - Voto m√©dio: ", votoMedioAnderson)
 
-   se (votoTotalFulana > votoTotalCiclana) e (votoTotalFulana > votoTotalBeltrana) entao
-      escreval("A vencedora È a Fulana!")
-   se (votoTotalCiclana > votoTotalFulana) e (votoTotalCiclana > votoTotalBeltrana) entao
-      escreval("A vencedora È a Ciclana!")
-   se (votoTotalBeltrana > votoTotalFulana) e (votoTotalBeltrana > votoTotalCiclana) entao
-      escreval("A vencedora È a Beltrana!")
+   se (votoTotalCintia > votoTotalEdilma) e (votoTotalCintia > votoTotalAnderson) entao
+      escreval("A vencedora √© a Cintia!")
+   se (votoTotalEdilma > votoTotalCintia) e (votoTotalEdilma > votoTotalAnderson) entao
+      escreval("A vencedora √© a Edilma!")
+   se (votoTotalAnderson > votoTotalCintia) e (votoTotalAnderson > votoTotalEdilma) entao
+      escreval("O vencedor √© o Anderson!")
    senao
       escreva("Empate entre as candidatas!")
    fimse
